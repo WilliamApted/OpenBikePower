@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBP", "OBP\OBP.csproj", "{02861610-4619-472F-AE54-FCD6F65AB2F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OBP", "OBP\OBP.csproj", "{02861610-4619-472F-AE54-FCD6F65AB2F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBPTests", "OBPTests\OBPTests.csproj", "{32CD8CBD-0C9C-420F-A0CC-D452D2FB4180}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBPTests", "OBPTests\OBPTests.csproj", "{4715609D-28ED-4A68-BDE2-753214607AC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{02861610-4619-472F-AE54-FCD6F65AB2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02861610-4619-472F-AE54-FCD6F65AB2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02861610-4619-472F-AE54-FCD6F65AB2F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32CD8CBD-0C9C-420F-A0CC-D452D2FB4180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32CD8CBD-0C9C-420F-A0CC-D452D2FB4180}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32CD8CBD-0C9C-420F-A0CC-D452D2FB4180}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32CD8CBD-0C9C-420F-A0CC-D452D2FB4180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4715609D-28ED-4A68-BDE2-753214607AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4715609D-28ED-4A68-BDE2-753214607AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4715609D-28ED-4A68-BDE2-753214607AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4715609D-28ED-4A68-BDE2-753214607AC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
