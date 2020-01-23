@@ -7,15 +7,12 @@ using System.Text;
 namespace OBP.Tests
 {
     [TestClass()]
-    public class GravityTests
+    public class RollResistanceTests
     {
         [TestMethod()]
-        public void GravitationalForceTest()
+        public void ResistanceTest()
         {
-            double result = Gravity.GravitationalForce(10, 60);
-
-            Assert.AreEqual(result, 585, 1);
+            Assert.Fail();
         }
-
     }
 }
