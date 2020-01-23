@@ -12,7 +12,9 @@ namespace OBP.Tests
         [TestMethod()]
         public void ResistanceTest()
         {
-            Assert.Fail();
+            double result = RollResistance.Resistance(0.10f, 60, 0.005f);
+
+            Assert.AreEqual(2.93, result, 0.05);
         }
     }
 }

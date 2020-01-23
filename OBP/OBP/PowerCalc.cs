@@ -15,7 +15,7 @@ namespace OBP
         /// <param name="velocity">Current velocity.</param>
         /// <param name="powerLoss">Power loss (as a percentage, 5% -> 0.05)</param>
         /// <returns>Power in watts.</returns>
-        private double GetPower(double gravityForce, double rollingForce, double dragForce, double velocity, double powerLoss) 
+        public static double GetPower(double gravityForce, double rollingForce, double dragForce, double velocity, double powerLoss) 
         {
             return ((gravityForce + rollingForce + dragForce) * velocity) / (1 - powerLoss);
         }

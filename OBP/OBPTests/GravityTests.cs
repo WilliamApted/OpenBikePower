@@ -14,7 +14,7 @@ namespace OBP.Tests
         {
             double result = Gravity.GravitationalForce(10, 60);
 
-            Assert.AreEqual(result, 585, 1);
+            Assert.AreEqual(585, result, 1);
         }
 
     }

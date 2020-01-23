@@ -1,10 +1,14 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OBP;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace OBPTests
+namespace OBP.Tests
 {
-    class PowerCalcTests
+    [TestClass()]
+    public class PowerCalcTests
     {
+   
     }
 }
