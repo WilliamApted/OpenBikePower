@@ -12,9 +12,7 @@ namespace OBP.Tests
         [TestMethod()]
         public void GravitationalForceTest()
         {
-            Gravity gravityCalculator = new Gravity(10, 60);
-
-            double result = gravityCalculator.GravitationalForce();
+            double result = Gravity.GravitationalForce(10, 60);
 
             Assert.AreEqual(result, 585, 1);
         }
