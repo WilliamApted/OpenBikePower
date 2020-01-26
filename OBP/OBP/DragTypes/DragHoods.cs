@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OBP.DragTypes
 {
-    class DragHoods : iDragType
+    public class DragHoods : iDragType
     {
         public float GetDragCoefficientArea()
         {

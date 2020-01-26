@@ -13,7 +13,6 @@ namespace OBP.Tests
         public void ResistanceTest()
         {
             double result = RollResistance.Resistance(0.10f, 60, 0.005f);
-
             Assert.AreEqual(2.93, result, 0.05);
         }
     }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OBP.DragTypes
 {
-    class DragCustom : iDragType
+    public class DragCustom : iDragType
     {
 
         public float dragCoefficient { get; set; }

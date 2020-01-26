@@ -13,9 +13,7 @@ namespace OBP
         public static double Calculate(float airDensity, float velocity, float windSpeed, iDragType drag) 
         {
             return 0.5 * drag.GetDragCoefficientArea() * airDensity * Math.Pow((velocity + windSpeed), 2);       
-        }
-
-
+        }    
 
     }
 }
