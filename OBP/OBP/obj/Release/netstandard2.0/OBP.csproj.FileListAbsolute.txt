@@ -5,3 +5,4 @@ C:\Users\willa\Documents\GitHub\OpenBikePower\OBP\OBP\obj\Release\netstandard2.0
 C:\Users\willa\Documents\GitHub\OpenBikePower\OBP\OBP\obj\Release\netstandard2.0\OBP.AssemblyInfo.cs
 C:\Users\willa\Documents\GitHub\OpenBikePower\OBP\OBP\obj\Release\netstandard2.0\OBP.dll
 C:\Users\willa\Documents\GitHub\OpenBikePower\OBP\OBP\obj\Release\netstandard2.0\OBP.pdb
+C:\Users\willa\Documents\GitHub\OpenBikePower\OBP\OBP\obj\Release\netstandard2.0\OBP.csprojAssemblyReference.cache
