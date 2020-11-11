@@ -15,7 +15,7 @@ namespace OBP
         /// <param name="mass">Total weight of bike, rider and all other equipment.</param>
         /// <param name="resistanceCoefficient">The rolling resistance coefficient.</param>
         /// <param name="g">Acceleration due to gravity.  Default figure defined by ISO/IEC 80000 (9.80665)</param>
-        /// <returns></returns>
+        /// <returns>The force </returns>
         public static double Resistance(float slope, float mass, float resistanceCoefficient, float g = 9.80665f) 
         {
             return g * Math.Cos(Math.Atan(slope)) * mass * resistanceCoefficient;

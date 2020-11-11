@@ -45,7 +45,7 @@ namespace DemoPowerApp
             PowerCalc powerCalculator = new PowerCalc();
 
             //Calculate power with parameters.
-            double wattage = powerCalculator.Calculate(velocity, mass, slope, windSpeed, 
+            double wattage = powerCalculator.GetPower(velocity, mass, slope, windSpeed, 
                              airDensity, RollResistanceCoefficients.SlickAsphalt, new DragHoods());
 
 

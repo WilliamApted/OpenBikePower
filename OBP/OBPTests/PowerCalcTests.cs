@@ -32,8 +32,8 @@ namespace OBP.Tests
             PowerCalc powerCalculator = new PowerCalc();
 
             //Calculate power with parameters.
-            double wattage = powerCalculator.Calculate(velocity, mass, slope, windSpeed,
-                             airDensity, RollResistanceCoefficients.SlickAsphalt, new DragHoods());
+            double wattage = powerCalculator.GetPower(velocity, mass, slope, windSpeed,
+                             airDensity, RollResistanceCoefficients.SlickTarmac, new DragHoods());
 
             Assert.AreEqual(210, wattage, 0.5);
 

@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.3.1</Version>
+    <Authors>William Apted</Authors>
+    <Company>Canis Software</Company>
+    <Product>OpenBikePower</Product>
+    <Description>A .NET Library for providing estimates of bicycle riders power using a range of input parameters.</Description>
+    <Copyright>Copyright Canis Software 2020</Copyright>
+    <RepositoryUrl>https://github.com/WilliamApted/OpenBikePower</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
